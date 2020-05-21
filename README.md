@@ -6,15 +6,20 @@ https://en.wikipedia.org/wiki/Rock_paper_scissors
 ### Requirements:
 1. Docker
 2. docker-compose
-3. bash support & `make`(optional), 
+3. bash support & `make`(optional)
+4. php7.4 (in case if you don't have docker) 
 
 ### How to run
-1. If you have bash support & make 
+1. If you have bash support & make & docker
 ```bash
 make build 
 make up
 ```
 2. If not 
+```bash
+php composer.phar install --no-dev
+php index.php
+```
 
 2. you can see the result in your console
 
