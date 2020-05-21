@@ -1,0 +1,1 @@
+docker run -it --rm --name my-running-script -v "$(pwd)":/app -w /app rock-paper-scissors-php php composer.phar install --no-dev
